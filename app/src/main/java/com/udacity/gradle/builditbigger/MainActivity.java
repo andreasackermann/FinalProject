@@ -14,7 +14,7 @@ import com.example.JokeSupplier;
 import com.example.jokeactivityandlib.TellJokeActivity;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements EndpointsAsyncTask.JokeCallback {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
