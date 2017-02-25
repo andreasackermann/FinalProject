@@ -2,8 +2,6 @@ package com.udacity.gradle.builditbigger;
 
 import android.support.test.rule.UiThreadTestRule;
 import android.support.test.runner.AndroidJUnit4;
-import android.test.InstrumentationTestCase;
-import android.util.Log;
 
 import junit.framework.Assert;
 

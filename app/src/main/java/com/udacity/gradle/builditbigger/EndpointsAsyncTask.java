@@ -1,11 +1,7 @@
 package com.udacity.gradle.builditbigger;
 
-import android.content.Context;
 import android.os.AsyncTask;
-import android.support.v4.util.Pair;
-import android.widget.Toast;
 
-import com.example.JokeSupplier;
 import com.example.andreas.myapplication.backend.myApi.MyApi;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
@@ -57,7 +53,7 @@ public class EndpointsAsyncTask extends AsyncTask<EndpointsAsyncTask.JokeCallbac
 
     public interface JokeCallback {
 
-        public void deliverJoke(String joke);
+        void deliverJoke(String joke);
 
     }
 }
